@@ -36,6 +36,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     right: '-10px',
     top: '-10px',
     cursor: 'ne-resize',
+    'border-radius': '50%',
+    border: 'solid 1px #fff',
   },
   bottomRight: {
     width: '20px',
@@ -44,6 +46,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     right: '-10px',
     bottom: '-10px',
     cursor: 'se-resize',
+    'border-radius': '50%',
+    border: 'solid 1px #fff',
   },
   bottomLeft: {
     width: '20px',
@@ -52,6 +56,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     left: '-10px',
     bottom: '-10px',
     cursor: 'sw-resize',
+    'border-radius': '50%',
+    border: 'solid 1px #fff',
   },
   topLeft: {
     width: '20px',
@@ -60,6 +66,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     left: '-10px',
     top: '-10px',
     cursor: 'nw-resize',
+    'border-radius': '50%',
+    border: 'solid 1px #fff',
   },
 };
 
